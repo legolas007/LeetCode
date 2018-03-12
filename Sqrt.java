@@ -1,5 +1,7 @@
 package main.java.com.usher.algorithms.array;
 
+import java.util.HashMap;
+
 /**
  * 二分
  * Implement int sqrt(int x).
