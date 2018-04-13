@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/list/ListNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/list/RemoveDuplicatesFromSortedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/list/RemoveDuplicatesFromSortedList2.java" />
-      <change beforePath="$PROJECT_DIR$/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/leetcode/src/array/AddTwoNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/ArrangingCoins.java" afterPath="$PROJECT_DIR$/leetcode/src/array/ArrangingCoins.java" />
-      <change beforePath="$PROJECT_DIR$/AssignCookies.java" afterPath="$PROJECT_DIR$/leetcode/src/array/AssignCookies.java" />
-      <change beforePath="$PROJECT_DIR$/BurstBalloons.java" afterPath="$PROJECT_DIR$/leetcode/src/array/BurstBalloons.java" />
-      <change beforePath="$PROJECT_DIR$/CompareStrings.java" afterPath="$PROJECT_DIR$/leetcode/src/array/CompareStrings.java" />
-      <change beforePath="$PROJECT_DIR$/GroupAnagrams.java" afterPath="$PROJECT_DIR$/leetcode/src/array/GroupAnagrams.java" />
-      <change beforePath="$PROJECT_DIR$/LongestPalindromicSubstring.java" afterPath="$PROJECT_DIR$/leetcode/src/string/LongestPalindromicSubstring.java" />
-      <change beforePath="$PROJECT_DIR$/MyStack.java" afterPath="$PROJECT_DIR$/leetcode/src/array/MyStack.java" />
-      <change beforePath="$PROJECT_DIR$/RecRotSortedArr.java" afterPath="$PROJECT_DIR$/leetcode/src/RecRotSortedArr.java" />
-      <change beforePath="$PROJECT_DIR$/ReverseWordsInAString.java" afterPath="$PROJECT_DIR$/leetcode/src/string/ReverseWordsInAString.java" />
-      <change beforePath="$PROJECT_DIR$/RmEle.java" afterPath="$PROJECT_DIR$/leetcode/src/array/RmEle.java" />
-      <change beforePath="$PROJECT_DIR$/SomeKOfArray.java" afterPath="$PROJECT_DIR$/leetcode/src/array/SomeKOfArray.java" />
-      <change beforePath="$PROJECT_DIR$/SplitArrayByEvenAndOdd.java" afterPath="$PROJECT_DIR$/leetcode/src/array/SplitArrayByEvenAndOdd.java" />
-      <change beforePath="$PROJECT_DIR$/Sqrt.java" afterPath="$PROJECT_DIR$/leetcode/src/array/Sqrt.java" />
-      <change beforePath="$PROJECT_DIR$/SubArrSum.java" afterPath="$PROJECT_DIR$/leetcode/src/SubArrSum.java" />
-      <change beforePath="$PROJECT_DIR$/TwoStringsAreAnagrams.java" afterPath="$PROJECT_DIR$/leetcode/src/array/TwoStringsAreAnagrams.java" />
-      <change beforePath="$PROJECT_DIR$/TwoSum.java" afterPath="$PROJECT_DIR$/leetcode/src/array/TwoSum.java" />
-      <change beforePath="$PROJECT_DIR$/TwoSumTest.java" afterPath="$PROJECT_DIR$/leetcode/src/array/TwoSumTest.java" />
-      <change beforePath="$PROJECT_DIR$/WildcardMatching.java" afterPath="$PROJECT_DIR$/leetcode/src/string/WildcardMatching.java" />
-      <change beforePath="$PROJECT_DIR$/singleNonDuplicate.java" afterPath="$PROJECT_DIR$/leetcode/src/array/singleNonDuplicate.java" />
-      <change beforePath="$PROJECT_DIR$/strStr.java" afterPath="$PROJECT_DIR$/leetcode/src/array/strStr.java" />
-    </list>
+    <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +64,8 @@
       <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/src/array/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="174">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -406,7 +377,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523622872038</updated>
-      <workItem from="1523622874041" duration="1368000" />
+      <workItem from="1523622874041" duration="1385000" />
     </task>
     <servers />
   </component>
@@ -416,7 +387,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1368000" />
+    <option name="totallyTimeSpent" value="1385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
@@ -600,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/array/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
