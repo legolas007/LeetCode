@@ -1,4 +1,4 @@
-package list;
+package linkedlist;
 
 
 public class ListNode {
@@ -6,7 +6,7 @@ public class ListNode {
     ListNode next;
     ListNode(int x) {
         this.val = x;
-        //this.next = null;
+        this.next = null;
     }
     /**
      * 显示方法

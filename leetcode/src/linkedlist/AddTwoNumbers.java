@@ -1,5 +1,7 @@
+package linkedlist;
+
 /**
- * // You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+ * // You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked linkedlist.
 
  // You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -7,7 +9,7 @@
  // Output: 7 -> 0 -> 8
 
  /**
- * Definition for singly-linked list.
+ * Definition for singly-linked linkedlist.
  * public class ListNode {
  *     int val;
  *     ListNode next;
@@ -15,12 +17,12 @@
  * }
  */
 
-/*public class AddTwoNumbers {
+public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode c1 = l1;
         ListNode c2 = l2;
-        ListNode sentinel = new ListNode(0);
-        ListNode d = sentinel;
+        ListNode tmp = new ListNode(0);
+        ListNode d = tmp;
         int sum = 0;
         while (c1 != null || c2 != null) {
             sum /= 10;
@@ -37,9 +39,9 @@
         }
         if (sum / 10 == 1)
             d.next = new ListNode(1);
-        return sentinel.next;
+        return tmp.next;
 
     }
-}*/
+}
 
 

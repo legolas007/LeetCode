@@ -1,4 +1,4 @@
-package list;
+package linkedlist;
 /**
  * Definition for ListNode
  * public class ListNode {
@@ -12,8 +12,8 @@ package list;
  */
 public class RemoveDuplicatesFromSortedList2 {
     /**
-     * @param head: head is the head of the linked list
-     * @return: head of the linked list
+     * @param head: head is the head of the linked linkedlist
+     * @return: head of the linked linkedlist
      */
     public ListNode deleteDuplicates(ListNode head) {
         // write your code here
