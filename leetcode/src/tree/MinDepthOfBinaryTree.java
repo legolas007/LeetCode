@@ -10,7 +10,7 @@ import java.util.Queue;
  *
  * 非递归的，层序遍历，找到第一个左右结点都为null的情况，就返回
  */
-public class MinimumDepthOfBinaryTree {
+public class MinDepthOfBinaryTree {
     public int minDepth(TreeNode root){
         if (root == null)
             return 0;
