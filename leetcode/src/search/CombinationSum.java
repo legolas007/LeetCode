@@ -25,7 +25,7 @@ A solution set is:
 ]
  */
 public class CombinationSum {
-    List<List<Integer>> res = new ArrayList<>();
+    private List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<Integer> list = new ArrayList<>();
