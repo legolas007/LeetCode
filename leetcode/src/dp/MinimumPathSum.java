@@ -8,8 +8,8 @@ package dp;
  * 上：f[i][j] = f[i-1][j] + grid[i][j];
  * 左：f[i][j] = f[i][j-1] + grid[i][j];
  * 初值：f[0][0] = grid[0][0]
- * f[0][j > 0] = f[0][j-1] + grid[0][j]
- * f[i > 0][ 0] = f[i-1][0] + grid[i][0]
+ * f[0][j > 0] = f[0][j-1] + grid[0][j]//一行
+ * f[i > 0][ 0] = f[i-1][0] + grid[i][0]//一列
  */
 public class MinimumPathSum {
     public int minPathSum(int[][] grid) {
