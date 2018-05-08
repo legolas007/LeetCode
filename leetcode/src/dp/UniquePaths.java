@@ -13,6 +13,7 @@ public class UniquePaths {
             return 0;
         if (m == 1&& n == 1)
             return 1;
+            //记忆化搜索
         if (f[m][n] > 0)
             return f[m][n];
         int up = uniquePaths(m-1,n);
@@ -26,9 +27,10 @@ public class UniquePaths {
         if (m < 0 || n < 0)
             return 0;
         f[1][1] = 1;
-        for (int i =2;i <= m;i++){
-            for (int j = 2;j <= n;j++){
+        for (int i =1;i <= m;i++){
+            for (int j = 1;j <= n;j++){
                 if (i == 1&& j == 1){
+                    //f[1][1] = 1;
                     continue;
                 }else {
                     f[i][j] = f[i-1][j] + f[i][j-1];
