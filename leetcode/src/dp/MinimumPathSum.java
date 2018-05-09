@@ -3,6 +3,15 @@ package dp;
 /**
  * @Author: Usher
  * @Description:
+ * Input:
+[
+[1,3,1],
+[1,5,1],
+[4,2,1]
+]
+Output: 7
+Explanation: Because the path 1→3→1→1→1 minimizes the sum.
+
  * f[i][j]最小值
  * f[i][j] = Math.min(f[i-1][j],f[i][j-1]) + grid[i][j];
  * 上：f[i][j] = f[i-1][j] + grid[i][j];
