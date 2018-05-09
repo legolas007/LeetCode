@@ -19,6 +19,8 @@ All root-to-leaf paths are:
 
 ["1->2->5", "1->3"]
 
+前序遍历访问到某一节点时，把该节点添加到路径上，
+
  */
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root){
