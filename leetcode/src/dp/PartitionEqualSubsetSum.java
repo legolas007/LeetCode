@@ -10,7 +10,29 @@ import java.util.Arrays;
  * dp[n][sum/2] 如果等于sum/2 就证明用了这n个数下，正好能加出一个sum/2
  */
 public class PartitionEqualSubsetSum {
+    //一维
     public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for (int num : nums)
+            sum += num;
+
+        if (sum % 2 != 0)
+            return false;
+        //dp[i]数字i是否是原数组的任一个子集合之和
+        int[] dp = new int[sum + 1];
+
+        dp[0] = 1;
+        for (int num : nums) {
+            for (int i = sum; i >= 0; i--)
+                if (dp[i] != 0)
+                    dp[i + num] = 1;
+            if (dp[sum >> 1] != 0)
+                return true;
+        }
+        return false;
+    }
+
+    public boolean canPartition2(int[] nums) {
         int sum = 0;
         for (int num : nums)
             sum += num;
