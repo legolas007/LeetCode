@@ -6,6 +6,11 @@ import java.util.Arrays;
 /**
  * @Author: Usher
  * @Description:
+ *
+ * [[2, 1, 1], [2, 3, 1], [3, 4, 1]]
+ * 4
+ * 2
+ *
  */
 public class NetworkDelayTime {
     public int networkDelayTime(int[][] times, int N, int K) {
