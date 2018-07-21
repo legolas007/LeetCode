@@ -4,8 +4,7 @@ import java.util.*;
 
 /**
  * @Author: Usher
- * @Description:
- * Input: graph = [[1,2],[2,3],[5],[0],[5],[],[]]
+ * @Description: Input: graph = [[1,2],[2,3],[5],[0],[5],[],[]]
  * Output: [2,4,5,6]
  * if have circle ,unsafe
  */
@@ -20,8 +19,8 @@ public class FindEventualSafeStates {
                 list.add(i);
             }
         }
-        //list.sort(Comparator.naturalOrder());
-        Collections.sort(list);
+        list.sort(Comparator.naturalOrder());
+        //Collections.sort(list);
         return list;
     }
 
