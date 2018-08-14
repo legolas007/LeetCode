@@ -23,6 +23,7 @@ public class FindAllAnagramsinaString {
             if (hash[s.charAt(right++)]-- >= 1) count--;
 
             if (count == 0) list.add(left);
+            //if we find the window's size equals to p, then we have to move left (narrow the window) to find the new match window
             //如果前一段p遍历完，继续下一个遍历，如果p包含，count++
             if (right - left == p.length() && hash[s.charAt(left++)]++ >= 0) count++;
         }

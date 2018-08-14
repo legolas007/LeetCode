@@ -1,5 +1,7 @@
 package array;
 
+import java.util.HashMap;
+
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -21,6 +23,23 @@ public class TwoSum {
                 }
             }
         }
+        return new int[]{0,0};
+    }
+
+    public int[] twoSum2(int[] nums, int target) {
+        //int[] arr = new int[2];
+        HashMap<Integer, Integer> onePass = new HashMap<>();
+        onePass.put(nums[0], 0);
+        int difference;
+        for(int i = 1; i < nums.length; i++) {
+            difference = target - nums[i];
+            if (onePass.containsKey(difference)) {
+                return new int[]{onePass.get(difference), i};
+            } else {
+                onePass.put(nums[i], i);
+            }
+        }
+
         return new int[]{0,0};
     }
 }

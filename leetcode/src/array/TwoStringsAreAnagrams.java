@@ -16,9 +16,6 @@ public class TwoStringsAreAnagrams {
         Arrays.sort(tt);
         s = Arrays.toString(ss);
         t = Arrays.toString(tt);
-       if(s.compareTo(t) == 0){
-           return true;
-       }
-       return false;
+        return s.compareTo(t) == 0;
     }
 }
