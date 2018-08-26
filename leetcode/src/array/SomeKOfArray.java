@@ -4,6 +4,9 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static jdk.nashorn.internal.objects.Global.println;
+
 /**
  * Np,检查一个数组里是否存在m个数的和等于某个值
  * @author usher
@@ -40,6 +43,11 @@ public class SomeKOfArray {
 			arr[i] = scanner.nextInt();
 		}
 		CalSum(arr, n1,n2);
+
+		List<String> strings = Arrays.asList("a", "a", "b", "c");
+		strings.sort((s1, s2) -> s1.compareToIgnoreCase(s2));
+		strings.sort(String::compareToIgnoreCase);
+
 		System.out.println(total);
 	}
 
