@@ -18,6 +18,7 @@ public class NumberofIslands {
             return 0;
         int n = grid[0].length;
 
+        //boolean[][] visited = new boolean[m][n];
         int ans = 0;
         for (int y = 0; y < m;y++)
             for (int x= 0;x < n;x++){
@@ -32,7 +33,7 @@ public class NumberofIslands {
         if (x < 0 || y < 0 || x >= n || y >= m || grid[y][x] == '0') {
             return;
         }
-        grid[y][x] = '0';
+        grid[y][x] = '0';//访问过标记0，遍历其他相邻节点
         dfs(grid, x + 1, y, n, m);
         dfs(grid, x - 1, y, n, m);
         dfs(grid, x, y+1, n, m);
