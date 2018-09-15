@@ -1,35 +1,26 @@
 package string;
 
 public class LongestPalindromicSubstring {
+    private int index, len;
     public String longestPalindrome(String s) {
-        if (s.isEmpty() || s == null) {
-            return "";
+        if(s.length() < 2)
+            return s;
+        for(int i = 0; i < s.length()-1; i++){
+            PalindromeHelper(s, i, i);
+            PalindromeHelper(s, i, i+1);
         }
-
-        int longest = 0,left = 0,right = 0;
-        for (int i = 0;i < s.length();i++){
-            for (int j = i+1;j <= s.length();j++){
-                String subStr = s.substring(i,j);
-                if(isPalindrome(subStr) && subStr.length() > longest){
-                    longest = subStr.length();
-                    left = i;
-                    right = j;
-                }
-            }
-        }
-        String res = s.substring(left,right);
-        return res;
+        return s.substring(index, index+len);
     }
-    private boolean isPalindrome(String s){
-        if (s == null || s.isEmpty()) return false;
-
-        for (int i =0; i < s.length(); i++){
-            if (s.charAt(i) != s.charAt(s.length()-i-1))
-                return false;
+    private void PalindromeHelper(String s, int l, int r){
+        while(l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)){
+            l--;
+            r++;
         }
-        return true;
+        if(len < r - l - 1){
+            index = l + 1;
+            len = r - l - 1;
+        }
     }
-
 }
 
 /**
