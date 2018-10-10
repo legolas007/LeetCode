@@ -27,7 +27,6 @@ public class TwoSum {
     }
 
     public int[] twoSum2(int[] nums, int target) {
-        //int[] arr = new int[2];
         HashMap<Integer, Integer> onePass = new HashMap<>();
         onePass.put(nums[0], 0);
         int difference;

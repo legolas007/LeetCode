@@ -10,7 +10,7 @@ public class TwoSumII {
         int start=0;
         int end=numbers.length-1;
         int sum=0;
-        //int result[]=new int[2];
+
         while(start<=end){
             sum=numbers[start]+numbers[end];
             if(target==sum){
