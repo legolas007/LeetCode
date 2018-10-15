@@ -12,7 +12,7 @@ public class LongestRepeatingCharacterReplacement {
         int result = 0, maxCnt = 0, start = 0;
         int[] counts = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            maxCnt = Math.max(maxCnt, counts[s.charAt(i) - 'A']++);
+            maxCnt = Math.max(maxCnt, ++counts[s.charAt(i) - 'A']);
             while (i - start + 1 - maxCnt > k) {
                 counts[s.charAt(start) - 'A']--;
                 start++;
