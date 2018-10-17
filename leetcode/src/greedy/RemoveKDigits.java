@@ -1,7 +1,5 @@
 package greedy;
 
-import java.util.Stack;
-
 /**
  * @Author: Usher
  * @Description:
@@ -11,8 +9,8 @@ import java.util.Stack;
  *
  */
 public class RemoveKDigits {
-    public String removeKdigits(String num, int k) {
-        Stack<Character> stack = new Stack<>();
+    public static String removeKdigits(String num, int k) {
+        /*Stack<Character> stack = new Stack<>();
         int len = num.length() - k;
 
         for (int i = 0; i < num.length(); i++) {
@@ -37,6 +35,45 @@ public class RemoveKDigits {
                 stringBuilder.append(c);
             }
         }
-        return stringBuilder.length() == 0 ? "0" : stringBuilder.toString();
+        return stringBuilder.length() == 0 ? "0" : stringBuilder.toString();*/
+
+        int len = num.length();
+        if(k == num.length())
+            return "0";
+        while (k != 0) {
+
+            for (int j = 0; j < len; j++) {
+                for (int i = 0; i < num.length() - 1; i++) {
+                    if (num.charAt(i) > num.charAt(i + 1)) {//最小值
+                    //if (num.charAt(i) < num.charAt(i + 1)) {最大值
+                        num = num.substring(0, i) + num.substring(i + 1);
+                        k--;
+                        if (k == 0 && num.length() > 1) {
+                            int count = 0;
+                            for (int l = 0; l < num.length(); l++) {
+                                if (num.charAt(l) == '0') {
+                                    ++count;
+                                } else break;
+                            }
+                            if(count == num.length() - k)
+                                return "0";
+                            else return num.substring(count);
+                        }else if(k == 0)
+                            return num;
+                        break;
+                    }
+                }
+            }
+            num = num.substring(0, num.length() - k);
+            k = 0;
+        }
+        if (num.length() == 0)
+            return "0";
+        return num;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(removeKdigits("10200", 1));
     }
 }
