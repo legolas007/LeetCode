@@ -26,4 +26,23 @@ public class LinkedListCycle {
         }
         return false;
     }
+
+    public ListNode EntryNodeOfLoop(ListNode pHead) {
+        if (pHead == null)
+            return null;
+        ListNode slow = pHead, fast = pHead.next.next;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (slow == null) {
+                fast = pHead;
+                while (slow != fast) {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+                return slow;
+            }
+        }
+        return null;
+    }
 }
