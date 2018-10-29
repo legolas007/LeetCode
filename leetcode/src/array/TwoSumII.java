@@ -11,7 +11,7 @@ public class TwoSumII {
         int end=numbers.length-1;
         int sum=0;
 
-        while(start<=end){
+        while(start<end){
             sum=numbers[start]+numbers[end];
             if(target==sum){
                 return new int[]{start+1,end+1};
