@@ -29,6 +29,5 @@ public class ValidParentheses {
             }
         }
         return deque.isEmpty();
-
     }
 }
