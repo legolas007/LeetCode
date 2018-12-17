@@ -1,13 +1,14 @@
 package array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class BurstBalloons {
     public int findMinArrowShots(int[][] points){
         if (points == null || points.length == 0){
             return 0;
         }
-        Arrays.sort(points,(a,b) -> a[1]-b[1]);
+        Arrays.sort(points, Comparator.comparingInt(a -> a[1]));
 
         int arrowPos = points[0][1];
         int arrowCnt = 1;
