@@ -72,8 +72,4 @@ public class RemoveKDigits {
         return num;
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(removeKdigits("10200", 1));
-    }
 }
