@@ -17,7 +17,7 @@ public class ThreeSum {
             if (nums[i] > 0)
                 break;
             // skip same result
-            if (i > 0 && nums[i] == nums[i-1])
+            if (i > 0 && nums[i] == nums[i - 1])
                 continue;
 
             int start = i + 1, end = nums.length - 1, sum = 0, target = 0 - nums[i];
@@ -28,9 +28,9 @@ public class ThreeSum {
                     start++;
                     end--;
                     //skip same result
-                    while (start < end && nums[start] == nums[start-1])
+                    while (start < end && nums[start] == nums[start - 1])
                         start++;
-                    while (start < end && nums[end] == nums[end+1])
+                    while (start < end && nums[end] == nums[end + 1])
                         end--;
                 } else if (sum < target) {
                     start++;
@@ -41,4 +41,4 @@ public class ThreeSum {
         }
         return lists;
     }
-    }
+}

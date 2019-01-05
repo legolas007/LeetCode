@@ -1,6 +1,7 @@
 package array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * @Author: Usher
@@ -10,7 +11,7 @@ public class MinimumNumberofArrowstoBurstBalloons {
     public int findMinArrowShots(int[][] points) {
         if (points == null || points.length ==0)
             return 0;
-        Arrays.sort(points, (a, b) -> (a[1] - b[1]));
+        Arrays.sort(points, Comparator.comparingInt(a -> a[1]));
 
         int sum= 1;
         int endIndex = points[0][1];
