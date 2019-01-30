@@ -1,9 +1,6 @@
 package graph;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @Author: Usher
@@ -12,32 +9,55 @@ import java.util.Queue;
  */
 public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        if (numCourses == 0) return null;
 
-        int indegree[] = new int[numCourses], order[] = new int[numCourses], index = 0;
-        for (int[] prerequisite2 : prerequisites)
-            indegree[prerequisite2[0]]++;
+        Map<Integer, List<Integer>> adjList = new HashMap<>();
+        int[] indegree = new int[numCourses];
+        int[] topologicalOrder = new int[numCourses];
 
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < numCourses; i++)
+        // Create the adjacency list representation of the graph
+        for (int[] prerequisite : prerequisites) {
+            int dest = prerequisite[0];
+            int src = prerequisite[1];
+            List<Integer> lst = adjList.getOrDefault(src, new ArrayList<>());
+            lst.add(dest);
+            adjList.put(src, lst);
+
+            // Record in-degree of each vertex
+            indegree[dest] += 1;
+        }
+
+        // Add all vertices with 0 in-degree to the queue
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < numCourses; i++) {
             if (indegree[i] == 0) {
-                order[index++] = i;
-                queue.offer(i);
+                q.add(i);
             }
-        while (!queue.isEmpty()) {
-            int prerequisite = queue.poll();
-            for (int[] prerequisite1 : prerequisites) {
-                if (prerequisite1[1] == prerequisite) {
-                    indegree[prerequisite1[0]]--;
-                    if (indegree[prerequisite1[0]] == 0) {
+        }
 
-                        order[index++] = prerequisite1[0];
-                        queue.offer(prerequisite1[0]);
+        int i = 0;
+        // Process until the Q becomes empty
+        while (!q.isEmpty()) {
+            int node = q.remove();
+            topologicalOrder[i++] = node;
+
+            // Reduce the in-degree of each neighbor by 1
+            if (adjList.containsKey(node)) {
+                for (Integer neighbor : adjList.get(node)) {
+                    indegree[neighbor]--;
+
+                    // If in-degree of a neighbor becomes 0, add it to the Q
+                    if (indegree[neighbor] == 0) {
+                        q.add(neighbor);
                     }
                 }
             }
         }
 
-        return (index == numCourses) ? order : new int[0];
+        // Check to see if topological sort is possible or not.
+        if (i == numCourses) {
+            return topologicalOrder;
+        }
+
+        return new int[0];
     }
 }
