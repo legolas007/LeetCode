@@ -9,32 +9,22 @@ package array;
  */
 public class NumArray {
     int[] num;
-    int[] bit;
     public NumArray(int[] nums) {
-        num = new int[nums.length];
-        bit = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            update(i, nums[i]);
-        }
+        num = nums;
 
     }
 
     public void update(int i, int val) {
-        int diff = val - num[i + 1];
-        for (int j = i + 1; j < num.length; j += (j & -j)) {
-            bit[j] += diff;
-        }
-        num[i + 1] = val;
+        num[i] = val;
     }
 
-    public int sumRange(int i, int j) {
-        return getSum(j + 1) - getSum(i);
-    }
-    int getSum(int i) {
-        int res = 0;
-        for (int j = i; j > 0; j -= (j&-j)) {
-            res += bit[j];
+    public int sumRange(int i, int j){
+        int sum = 0;
+
+        for (int k = i; k <= j; k++) {
+            sum += num[k];
         }
-        return res;
+        return sum;
     }
+
 }
