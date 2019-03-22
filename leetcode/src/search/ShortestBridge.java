@@ -7,6 +7,6 @@ package search;
  */
 public class ShortestBridge {
     public int shortestBridge(int[][] A) {
-
+        return -1;
     }
 }
