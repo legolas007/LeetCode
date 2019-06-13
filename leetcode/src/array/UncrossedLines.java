@@ -6,7 +6,7 @@ package array;
  * @Description:
  */
 public class UncrossedLines {
-    public int maxUncrossedLines(int[] A, int[] B) {
+/*    public int maxUncrossedLines(int[] A, int[] B) {
 
-    }
+    }*/
 }

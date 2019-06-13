@@ -6,7 +6,7 @@ package array;
  * @Description:
  */
 public class LongestIncreasingPathinaMatrix {
-    public int longestIncreasingPath(int[][] matrix) {
+/*    public int longestIncreasingPath(int[][] matrix) {
 
-    }
+    }*/
 }

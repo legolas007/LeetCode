@@ -6,10 +6,10 @@ package greedy;
  * @Description:
  */
 public class MinimumNumberofKConsecutiveBitFlips {
-    public int minKBitFlips(int[] A, int K) {
+/*    public int minKBitFlips(int[] A, int K) {
 
         for (int i = 0,j = 0, len = A.length; i < len; i++) {
 
         }
-    }
+    }*/
 }

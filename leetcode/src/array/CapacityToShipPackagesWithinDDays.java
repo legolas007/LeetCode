@@ -6,7 +6,7 @@ package array;
  * @Description:
  */
 public class CapacityToShipPackagesWithinDDays {
-    public int shipWithinDays(int[] weights, int D) {
+/*    public int shipWithinDays(int[] weights, int D) {
 
-    }
+    }*/
 }

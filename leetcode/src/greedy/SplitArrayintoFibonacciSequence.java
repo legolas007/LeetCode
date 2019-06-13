@@ -8,7 +8,7 @@ import java.util.List;
  * @Description:
  */
 public class SplitArrayintoFibonacciSequence {
-    public List<Integer> splitIntoFibonacci(String S) {
+/*    public List<Integer> splitIntoFibonacci(String S) {
 
-    }
+    }*/
 }

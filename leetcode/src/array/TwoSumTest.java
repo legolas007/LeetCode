@@ -4,11 +4,22 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.TreeSet;
 
 public class TwoSumTest {
-    @Test
-    public void testTwoSum(){
-        Assert.assertTrue(Arrays.equals(new TwoSum().twoSum(new int[]{2,5,5,11},13), new int[]{0,3}));
+
+    public static void main(String[] args) {
+        TreeSet<Integer> treeSet = new TreeSet<>();
+        treeSet.add(1);
+        treeSet.add(1);
+        treeSet.add(3);
+        treeSet.add(3);
+        treeSet.add(1);
+        treeSet.add(2);
+
+        for (int num : treeSet) {
+            System.out.println(num);
+        }
     }
 
 }
