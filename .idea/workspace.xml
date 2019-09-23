@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="tree">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/DayoftheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/DistanceBetweenBusStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/MaximizeDistancetoClosestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/LongCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/NumberofDiceRollsWithTargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/graph/AsFarfromLandasPossible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/linkedlist/RemoveZeroSumConsecutiveNodesfromLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/math/DayOfTheYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/search/ShortestDistancetoTargetColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/CountSubstringswithOnlyOneDistinctLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/FindWordsThatCanBeFormedbyCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/SwapForLongestRepeatedCharacterSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/tree/MaximumLevelSumofaBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/GlobalandLocalInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/MaximumSubarraySumwithOneDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MaximumNumberofBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/ReverseSubstringsBetweenEachPairofParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/tree/BinaryTreeColoringGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/leetcode/array/ContainsDuplicateIII.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/leetcode/array/ContainsDuplicateIII.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,55 +49,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>p</find>
-      <find>col</find>
-      <find>nums</find>
-      <find>array</find>
-      <find>num</find>
-      <find>S</find>
-      <find>HashTable</find>
-      <find>A</find>
-      <find>maxtb</find>
-      <find>BigDecimal</find>
-      <find>String</find>
-      <find>new</find>
-      <find>numRows</find>
-      <find>last</find>
-      <find>chars2</find>
-      <find>length</find>
-      <find>new Array</find>
-      <find>list</find>
-      <find>hand</find>
-      <find>nums.length</find>
-      <find>j--</find>
-      <find>char</find>
-      <find>tmp</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>letters</replace>
-      <replace>s2</replace>
-      <replace>map</replace>
-      <replace>arr</replace>
-      <replace>s</replace>
-      <replace>HashMap</replace>
-      <replace>tb[i]</replace>
-      <replace>BigInteger</replace>
-      <replace>rowIndex</replace>
-      <replace>pre</replace>
-      <replace>num2</replace>
-      <replace>priorityQueue</replace>
-      <replace>nums</replace>
-      <replace>n</replace>
-      <replace>--j</replace>
-      <replace>String</replace>
-      <replace>reverse</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>D:\LeetCode\leetcode\src\linkedlist</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -684,6 +625,9 @@
       <workItem from="1567389221255" duration="108000" />
       <workItem from="1567913405775" duration="10257000" />
       <workItem from="1567994341350" duration="47000" />
+      <workItem from="1568431545047" duration="7570000" />
+      <workItem from="1569058886156" duration="3321000" />
+      <workItem from="1569203809246" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="tree">
       <created>1532229615603</created>
