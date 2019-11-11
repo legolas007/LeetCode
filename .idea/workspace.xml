@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="tree">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/GlobalandLocalInversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/MaximumSubarraySumwithOneDeletion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MaximumNumberofBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/ReverseSubstringsBetweenEachPairofParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/tree/BinaryTreeColoringGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/CellswithOddValuesinaMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/MinimumAbsoluteDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/SmallestStringWithSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/UniqueNumberofOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/LongestArithmeticSubsequenceofGivenDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/search/PathwithMaximumGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/CheckIfItIsaStraightLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/GetEqualSubstringsWithinBudget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MaximumLengthofaConcatenatedStringwithUniqueCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/RemoveAllAdjacentDuplicatesinStringII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/RemoveSubFoldersfromtheFilesystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/ReplacetheSubstringforBalancedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/SplitaStringinBalancedStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/leetcode/array/DayoftheWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/leetcode/array/DayoftheWeek.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,20 +125,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DayoftheWeek">
+  <component name="RunManager" selected="Application.CountNumberofNiceSubarrays">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.Cat" />
+    <configuration name="CountNumberofNiceSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CountNumberofNiceSubarrays" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,13 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistancetoTargetColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.ShortestDistancetoTargetColor" />
+    <configuration name="RemoveSubFoldersfromtheFilesystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RemoveSubFoldersfromtheFilesystem" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.TwoSumTest" />
+    <configuration name="ShortestDistancetoTargetColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.ShortestDistancetoTargetColor" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,19 +225,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Cat" />
-      <item itemvalue="Application.TwoSumTest" />
       <item itemvalue="Application.CountSubstringswithOnlyOneDistinctLetter" />
       <item itemvalue="Application.ShortestDistancetoTargetColor" />
       <item itemvalue="Application.DayoftheWeek" />
+      <item itemvalue="Application.RemoveSubFoldersfromtheFilesystem" />
+      <item itemvalue="Application.CountNumberofNiceSubarrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumberofNiceSubarrays" />
+        <item itemvalue="Application.RemoveSubFoldersfromtheFilesystem" />
         <item itemvalue="Application.DayoftheWeek" />
         <item itemvalue="Application.ShortestDistancetoTargetColor" />
         <item itemvalue="Application.CountSubstringswithOnlyOneDistinctLetter" />
-        <item itemvalue="Application.TwoSumTest" />
-        <item itemvalue="Application.Cat" />
       </list>
     </recent_temporary>
   </component>
@@ -628,6 +639,17 @@
       <workItem from="1568431545047" duration="7570000" />
       <workItem from="1569058886156" duration="3321000" />
       <workItem from="1569203809246" duration="63000" />
+      <workItem from="1569638946530" duration="8274000" />
+      <workItem from="1570329427041" duration="12669000" />
+      <workItem from="1570420098584" duration="2562000" />
+      <workItem from="1570515331081" duration="165000" />
+      <workItem from="1571540521370" duration="832000" />
+      <workItem from="1572685013491" duration="7591000" />
+      <workItem from="1572770846168" duration="8460000" />
+      <workItem from="1572790495427" duration="17000" />
+      <workItem from="1573374863925" duration="8144000" />
+      <workItem from="1573438302610" duration="27000" />
+      <workItem from="1573443230920" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="tree">
       <created>1532229615603</created>
@@ -638,11 +660,6 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TwoSumTest - 2018.04.13 at 20h 47m 54s.xml">
-      <configuration name="TwoSumTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
