@@ -65,7 +65,7 @@ public class CountNumberofNiceSubarrays {
                 strings[i] = "\"" + strings[i] + "\"";
         }
         List<String> list = Arrays.asList(strings);
-        System.out.println(list);
+        System.out.println(list.size());
 
     }
 }

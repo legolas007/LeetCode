@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="tree">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/CellswithOddValuesinaMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/MinimumAbsoluteDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/SmallestStringWithSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/UniqueNumberofOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/dp/LongestArithmeticSubsequenceofGivenDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/search/PathwithMaximumGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/CheckIfItIsaStraightLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/GetEqualSubstringsWithinBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MaximumLengthofaConcatenatedStringwithUniqueCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/RemoveAllAdjacentDuplicatesinStringII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/RemoveSubFoldersfromtheFilesystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/ReplacetheSubstringforBalancedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/SplitaStringinBalancedStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/MinimumTimeVisitingAllPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/graph/CountServersthatCommunicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/search/NumberofClosedIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MinimumRemovetoMakeValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/tree/FindElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/leetcode/array/DayoftheWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/leetcode/array/DayoftheWeek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/leetcode/array/CountNumberofNiceSubarrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/leetcode/array/CountNumberofNiceSubarrays.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +79,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564842094555" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-algorithms" />
+    <property name="last_opened_file_path" value="I:/work/basic/iwork-spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -649,7 +640,14 @@
       <workItem from="1572790495427" duration="17000" />
       <workItem from="1573374863925" duration="8144000" />
       <workItem from="1573438302610" duration="27000" />
-      <workItem from="1573443230920" duration="800000" />
+      <workItem from="1573443230920" duration="1393000" />
+      <workItem from="1573450763613" duration="14000" />
+      <workItem from="1573527460107" duration="42000" />
+      <workItem from="1574476901670" duration="9548000" />
+      <workItem from="1574649176587" duration="333000" />
+      <workItem from="1574653110982" duration="1883000" />
+      <workItem from="1574664767588" duration="1202000" />
+      <workItem from="1575086749458" duration="6755000" />
     </task>
     <task id="LOCAL-00001" summary="tree">
       <created>1532229615603</created>
