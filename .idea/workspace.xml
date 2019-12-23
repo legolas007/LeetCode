@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32c4e5f-e640-467c-8ffa-0b01abd7e1ec" name="Default" comment="tree">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/array/MinimumTimeVisitingAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/graph/CountServersthatCommunicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/search/NumberofClosedIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/string/MinimumRemovetoMakeValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/tree/FindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/array/ElementAppearingMoreThan25InSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/graph/QueensThatCanAttacktheKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/greedy/DivideArrayinSetsofKConsecutiveNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/greedy/GroupthePeopleGiventheGroupSizeTheyBelongTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/linkedlist/ConvertBinaryNumberinaLinkedListtoInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/array/CountNumberofNiceSubarrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/leetcode/array/CountNumberofNiceSubarrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/leetcode/array/CountNumberofNiceSubarrays.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountNumberofNiceSubarrays">
+  <component name="RunManager" selected="Application.DivideArrayinSetsofKConsecutiveNumbers">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -137,20 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSubstringswithOnlyOneDistinctLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CountSubstringswithOnlyOneDistinctLetter" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DayoftheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.DayoftheWeek" />
       <module name="leetcode" />
@@ -158,6 +142,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivideArrayinSetsofKConsecutiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.DivideArrayinSetsofKConsecutiveNumbers" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +214,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountSubstringswithOnlyOneDistinctLetter" />
       <item itemvalue="Application.ShortestDistancetoTargetColor" />
       <item itemvalue="Application.DayoftheWeek" />
       <item itemvalue="Application.RemoveSubFoldersfromtheFilesystem" />
       <item itemvalue="Application.CountNumberofNiceSubarrays" />
+      <item itemvalue="Application.DivideArrayinSetsofKConsecutiveNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideArrayinSetsofKConsecutiveNumbers" />
         <item itemvalue="Application.CountNumberofNiceSubarrays" />
         <item itemvalue="Application.RemoveSubFoldersfromtheFilesystem" />
         <item itemvalue="Application.DayoftheWeek" />
         <item itemvalue="Application.ShortestDistancetoTargetColor" />
-        <item itemvalue="Application.CountSubstringswithOnlyOneDistinctLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -647,7 +645,14 @@
       <workItem from="1574649176587" duration="333000" />
       <workItem from="1574653110982" duration="1883000" />
       <workItem from="1574664767588" duration="1202000" />
-      <workItem from="1575086749458" duration="6755000" />
+      <workItem from="1575086749458" duration="9670000" />
+      <workItem from="1575191667613" duration="69000" />
+      <workItem from="1575707504990" duration="652000" />
+      <workItem from="1576307667160" duration="85000" />
+      <workItem from="1577006179456" duration="13257000" />
+      <workItem from="1577067520072" duration="24000" />
+      <workItem from="1577070467185" duration="14000" />
+      <workItem from="1577083982804" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="tree">
       <created>1532229615603</created>
